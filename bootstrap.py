@@ -5,7 +5,6 @@ And F4stZ4p for github repo
 """
 
 from os import system, environ, popen
-from keepalive import keep_alive
 import traceback
 
 
@@ -157,5 +156,5 @@ if __name__ == "__main__":
     Starts our instance
     """
     
-    keep_alive()
+    system('clear')
     LavalinkBootstrap().run()
