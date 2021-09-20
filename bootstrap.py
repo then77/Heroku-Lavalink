@@ -5,6 +5,9 @@ And F4stZ4p for github repo
 """
 
 from os import system, environ, popen
+from simple_chalk import chalk
+from add_ons import splash_screen
+import traceback
 
 
 class LavalinkBootstrap:
@@ -151,5 +154,6 @@ if __name__ == "__main__":
     """
     Starts our instance
     """
-
+    
+    splash_screen()
     LavalinkBootstrap().run()
