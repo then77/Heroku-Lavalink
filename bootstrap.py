@@ -1,6 +1,7 @@
 """
 Lavalink on Heroku bootstrap script
 Credit to diniboy for sed script
+And F4stZ4p for github repo
 """
 
 from os import system, environ, popen
