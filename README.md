@@ -1,8 +1,8 @@
-# HLavalink
+# Heroku-Lavalink
 
-**Lavalink** on **Heroku**, in a nutshell
+### Deploy To Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/F4stZ4p/HLavalink)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/then77/Heroku-Lavalink/)
 
 ## If you want to run this:
 
