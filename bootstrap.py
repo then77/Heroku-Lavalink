@@ -5,7 +5,6 @@ And F4stZ4p for github repo
 """
 
 from os import system, environ, popen
-from simple_chalk import chalk
 from add_ons import splash_screen
 import traceback
 
@@ -85,9 +84,10 @@ class LavalinkBootstrap:
             )
 
         except BaseException as exc:
-
+            
+            err23 = traceback.format_exc()
             print(
-                f"[ERROR] Failed to replace port/password. Info: {exc}"
+                f"[ERROR] Failed to replace port/password. Info:\n{err23}"
             )
 
         else:
@@ -113,9 +113,10 @@ class LavalinkBootstrap:
             )
         
         except BaseException as exc:
-
+            
+            err23 = traceback.format_exc()
             print(
-                f"[ERROR] Lavalink download failed. Info: {exc}"
+                f"[ERROR] Lavalink download failed. Info:\n{err23}"
             )
 
         else:
@@ -144,9 +145,10 @@ class LavalinkBootstrap:
             )
         
         except BaseException as exc:
-
+            
+            err23 = traceback.format_exc()
             print(
-                f"[ERROR] Failed to start Lavalink. Info: {exc}"
+                f"[ERROR] Failed to start Lavalink. Info:\n{err23}"
             )
 
 if __name__ == "__main__":
