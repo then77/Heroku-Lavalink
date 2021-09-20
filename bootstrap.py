@@ -5,7 +5,7 @@ And F4stZ4p for github repo
 """
 
 from os import system, environ, popen
-from keep_alive import keep_alive
+from keepalive import keep_alive
 import traceback
 
 
