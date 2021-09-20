@@ -5,7 +5,6 @@ And F4stZ4p for github repo
 """
 
 from os import system, environ, popen
-from add_ons import splash_screen
 import traceback
 
 
@@ -156,6 +155,4 @@ if __name__ == "__main__":
     """
     Starts our instance
     """
-    
-    splash_screen()
     LavalinkBootstrap().run()
